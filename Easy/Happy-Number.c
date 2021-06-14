@@ -11,13 +11,13 @@ int next_n(int n){
     return r;
 }
 
-bool constain(int *history, int size, int n){
-     for (int i = 0; i <=size; i++){
-         if (history[i] == n){
-             return true;
-         }
-    }return false;
-}
+// bool constain(int *history, int size, int n){
+//      for (int i = 0; i <=size; i++){
+//          if (history[i] == n){
+//              return true;
+//          }
+//     }return false;
+// }
 
 // bool isHappy(int n){
 //     int history[1000];
