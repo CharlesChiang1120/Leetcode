@@ -40,7 +40,6 @@ bool isHappy(int n){
         slow = next_n(slow);
         fast = next_n(next_n(fast));
     }while(slow != fast);
-
     return fast == 1;
 }
 
