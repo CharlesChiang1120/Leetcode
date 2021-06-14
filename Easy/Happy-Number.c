@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int next_n(int n){
     int r = 0;
     while(n != 0){
