@@ -11,6 +11,8 @@
 //     }
 //     return max;
 // }
+
+// Kadane(Dynamic Programming)
 int maxSubArray(int* nums, int size)
 {
     int sum = 0;
