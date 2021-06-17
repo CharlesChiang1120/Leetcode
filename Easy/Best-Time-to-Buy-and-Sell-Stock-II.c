@@ -58,7 +58,8 @@
 //       }
 // }
 
-// Thinking:兩天比較，第二天比較高就賣
+// Thinking:
+
 int maxProfit(int* prices, int pricesSize){
     int total = 0;
     for (int i = 0; i+1 < pricesSize; i++) {
