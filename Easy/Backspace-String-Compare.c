@@ -105,6 +105,7 @@ bool backspaceCompare(char * s, char * t){
 }
 
 // ========================================================
+
 //O(n) time and O(1) space
 
 char* process(char* str) {
@@ -127,7 +128,3 @@ char* process(char* str) {
 bool backspaceCompare(char * s, char * t){
     return strcmp( process(s),process(t)) == 0;
 }
-
-
-
-
