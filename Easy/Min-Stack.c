@@ -157,6 +157,4 @@ void minStackFree(MinStack* obj) {
     free(obj->data);
     free(obj->mins);
     free(obj);
-}
-
-
+} 
